@@ -50,6 +50,6 @@ void loop() {
   lcd.print(" %");
   Serial.println("Temperature: " + String(t) + " *C");
   Serial.println("Humidity: " + String(h) + " %");
+  Serial.println();
   delay(1000);
   lcd.clear();
-}
